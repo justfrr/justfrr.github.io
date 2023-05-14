@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Website</title>
+
+ <!-- AOS -->
+ <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+ <!-- FAVICON -->
+ <link class="favicon" rel="icon" type="image/img" sizes="32x32" href="images/favicon-32x32.png">
+
+ <!-- Google material icons -->
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <!-- CSS -->
+ <link rel="stylesheet" href="style.css" />
+
+  <!-- FONT AWESOME -->
+ <script src="https://kit.fontawesome.com/{{YOUR KIT KEY}}.js" crossorigin="anonymous"></script>
+
+  <!-- TYPE JS -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+   integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+   crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- jQUERY -->
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- SWEET ALERT -->
+ <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <!-- EMAIL JS -->
+ <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+ <script type="text/javascript">
+   (function () {
+     emailjs.init("{{YOUR USER KEY}}");
+   })();
+ </script>
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+          <img class="logo" src="jb.jpg"><h3>My Personal Website</h3></div>
+        <nav>
+          <ul>
+            <li><a href="#"class="nav-link">Home</a></li>
+            <li><a href="#about"class="nav-link">About</a></li>
+            <li><a href="#skills"class="nav-link">Skills</a></li>
+            <li><a href="#activities"class="nav-link">Activities</a></li>
+            <li><a href="#contact"class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+  <!-- Scroll to top button -->
+    <button id="btnScrollToTop">
+      <i class="material-icons">arrow_upward</i>
+    </button>
+    
+  <!-- home section start-->
+  <section class="home" id="home">
+    <div class="max-width">
+      <div class="home-content">
+        <div class="text-1" data-aos="fade-up">I AM</div>
+        <div class="text-2">JUSTFER</div>
+        <div class="text-3"> a <span class="typing"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about section -->
+  <section class="about" id="about">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down" >About Me</h2>
+      <div class="about-content">
+        <div class="column left" data-aos="fade-right" >
+          <img src="pr.jpg.jpg" alt="" />
+        </div>
+        <div class="column right" data-aos="fade-up">
+          <div class="text">
+            I'm Justfer and Im a <span class="typing-2"></span>
+          </div>
+          <p class="paragraph">
+            Hi, my name is Justfer Bisnan and I'm currently an IT student.
+             I'm passionate about technology and love exploring new ways to use it to solve problems and make life easier. 
+             I'm particularly interested in web development and software engineering, and have been working on a few projects in my spare time to hone my skills.
+              In my free time, I enjoy playing video games and learning about emerging technologies. 
+              I'm excited to be a part of this community and can't wait to see what we can accomplish together!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- skills section services -->
+ <section class="skills" id="skills">
+    <div class="max-width" data-aos="fade-down">
+      <center><h2 class="title" data-aos="fade-up">My Skills</h2></center>
+        <div class="column right skill-box">
+          <div class="icons">
+            <img src="css.jpg" alt="css" id="css-icon" data-aos="flip-left">
+            <img src="java.jpg" alt="js" id="js-icon" data-aos="flip-left">
+            <img src="html.jpg" alt="html", id="html-icon" data-aos="flip-left">
+            <img src="vsc.jpg" alt="vscode" id="vscode-icon" data-aos="flip-left">
+      </div>
+  </section>
+
+  
+  <!-- Activities Section -->
+  <section id="activities">
+    <div class="container">
+      <h2>Activities</h2>
+      <p>Check out some of my recent Activities:</p>
+      <ul>
+        <li>
+          <a href="file:///C:/Users/Acer/Desktop/justfer/My%20Website.html">
+            Personal Website
+          </a>
+        </li>
+        <li>
+          <a href="file:///C:/Users/Acer/Desktop/justfer/login.html">
+            Login Form
+          </a>
+        </li>
+        <li>
+          <a href="file:///C:/Users/Acer/Desktop/justfer/justfer.html">
+            Personal Info
+          </a>
+        </li>
+        <li>
+          <a href="file:///C:/Users/Acer/Desktop/justfer/cryptography.html">
+            Cryptography
+          </a>
+        </li>
+        <li>
+          <a href="file:///C:/Users/Acer/Desktop/justfer/calculator.html">
+            Calculator
+          </a>
+        </li>
+        <li>
+          <a href="file:///C:/Users/Acer/Desktop/justfer/onclickk.html">
+            Onclick
+          </a>
+        </li>
+        <li>
+          <a href="file:///C:/Users/Acer/Desktop/justfer/htmlevents.html">
+            HTML Events
+          </a>
+        </li>
+        <li>
+          <a href="file:///C:/Users/Acer/Desktop/justfer/javascriptoutput.html">
+            JavaScripts Output
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>If you have any questions or would like to get in touch, please fill out the form below or email me at bisnanjustfer6@gmail.com</p>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+        <br>
+        <input type="submit" value="Send Message">
+      </form>
+      <p>Alternatively, you can find me on :</p>
+      <a href="https://web.facebook.com/justfer.bisnan.9/"><img src="face.jpg"></a>
+      <a href="https://instagram.com/justfrr_needs_rest?igshid=ZDdkNTZiNTM="><img src="insta.jpg"></a>
+    </div>
+  </section> 
+  <footer>   
+    <center> <p>&copy; Copyright 2023 My Personal Website. All Rights Reserved.</p></center>
+</footer>
+  <script src="script.js"></script>
+  <script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function() {myFunction()};
+    
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init({easing : 'ease-in',delay: 100,duration: 300,offset:100});window.addEventListener('load', AOS.refresh);</script>
+</body>
+
+</html>
